@@ -1,0 +1,27 @@
+{
+  "name": "network-diagnostics-backend",
+  "version": "1.0.0",
+  "description": "Backend de sincronización y simulador de protocolos de red para Network Diagnostics Suite",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/test-snmp.ts",
+    "start": "ts-node src/server.ts",
+    "serve": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7",
+    "ssh2": "^1.15.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.17.10",
+    "@types/sqlite3": "^3.1.11",
+    "@types/ssh2": "^1.15.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

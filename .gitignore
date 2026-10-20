@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.gradle/
+*.sqlite
+*.sqlite-journal
+*.log
+.DS_Store
+.idea/
+.vscode/
+**/.gradle/
+**/build/
+**/.cxx/
+
